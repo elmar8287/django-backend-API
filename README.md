@@ -29,4 +29,5 @@
 - Add `'rest_framework',` into INSTALLED_APPS in settings.py file
 - Add serializers
 - Add view for serializers
+- Add urls
 
