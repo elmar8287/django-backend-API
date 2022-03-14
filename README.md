@@ -1,1 +1,1 @@
-# django-backend-API
+- Install Python [last version](https://www.python.org/)
