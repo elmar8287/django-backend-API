@@ -1,3 +1,5 @@
+## SETUP
+
 - Install Python [last version](https://www.python.org/)
 - check Python3 version - python3 --version
 - check pip3 version - pip3 --version
@@ -13,3 +15,7 @@
 - python3 manage.py createsuperuser - creating of super user (remember username/pass for future)
 - python3 manage.py runserver - to run server on localhost
 - go to localhost:8000/admin and you will see login page to admin dashboard
+
+# MODELS
+
+- 
