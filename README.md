@@ -6,3 +6,5 @@
 - python3 -m pip install Django
 - django-admin startproject api - to create the project
 - cd api
+- pip install pylint - Setup linters for Mac (here is the [link](https://www.pylint.org/#install))
+- python3 manage.py migrate - make first migration, it is mondatory to create the db.sqlite3
