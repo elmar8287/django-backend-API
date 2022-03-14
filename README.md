@@ -16,6 +16,17 @@
 - python3 manage.py runserver - to run server on localhost
 - go to localhost:8000/admin and you will see login page to admin dashboard
 
-# MODELS
+## MODELS
 
-- 
+- In models.py file add the model
+- Register this model in admin.py file
+- Migrate by python3 manage.py makemigrations and then python3 manage.py migrate
+- Now we can add a single item to db from admin panel
+
+## Setup Django REST Framework
+
+- pip install djangorestframework - install the framework
+- Add `'rest_framework',` into INSTALLED_APPS in settings.py file
+- Add serializers
+- Add view for serializers
+
