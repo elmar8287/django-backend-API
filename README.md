@@ -38,3 +38,5 @@
 - heroku create [name of your app]  - create an app on your heroku account
 - echo python-3.10.2 > runtime.txt
 - git add runtime.txt
+- echo "web: python manage.py runserver 0.0.0.0:\$PORT" > Procfile
+- git add Procfile
