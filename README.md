@@ -44,3 +44,6 @@
 - heroku buildpacks:set heroku/python
 - python -m pip freeze
 - python -m pip freeze > requirements.txt
+- heroku config:set DISABLE_COLLECTSTATIC=1
+- git push heroku branch_name:main
+- ALLOWED_HOSTS = ['*'] in your settings.py
