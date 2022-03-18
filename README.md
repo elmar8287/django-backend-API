@@ -31,3 +31,19 @@
 - Add view for serializers
 - Add urls
 
+## Heroku deploy
+
+- heroku --version  check you version
+- heroku login  - to login to your account
+- heroku create [name of your app]  - create an app on your heroku account
+- echo python-3.10.2 > runtime.txt
+- git add runtime.txt
+- echo "web: python manage.py runserver 0.0.0.0:\$PORT" > Procfile
+- git add Procfile
+- heroku git:remote -a az-courses-api
+- heroku buildpacks:set heroku/python
+- python -m pip freeze
+- python -m pip freeze > requirements.txt
+- heroku config:set DISABLE_COLLECTSTATIC=1
+- git push heroku branch_name:main
+- ALLOWED_HOSTS = ['*'] in your settings.py
