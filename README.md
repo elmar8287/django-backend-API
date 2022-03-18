@@ -31,3 +31,10 @@
 - Add view for serializers
 - Add urls
 
+## Heroku deploy
+
+- heroku --version  check you version
+- heroku login  - to login to your account
+- heroku create [name of your app]  - create an app on your heroku account
+- echo python-3.10.2 > runtime.txt
+- git add runtime.txt
