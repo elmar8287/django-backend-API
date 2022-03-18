@@ -41,3 +41,6 @@
 - echo "web: python manage.py runserver 0.0.0.0:\$PORT" > Procfile
 - git add Procfile
 - heroku git:remote -a az-courses-api
+- heroku buildpacks:set heroku/python
+- python -m pip freeze
+- python -m pip freeze > requirements.txt
