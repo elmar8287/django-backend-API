@@ -4,6 +4,8 @@ from . import views
 
 router = routers.DefaultRouter()
 router.register(r'cars', views.CarsViewSet)
+router.register(r'days', views.DaysViewSet)
+router.register(r'booking', views.BookingViewSet)
 
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
